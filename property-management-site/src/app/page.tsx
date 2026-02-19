@@ -18,106 +18,106 @@ export default function Home() {
           </div>
         </div>
         {/* banner overlay */}
-        <div className="banner-overlay">
-          <div className="container">
-            <div className="row align-items-center justify-content-center">
-              <div className="col-12 col-md-10 col-lg-10 col-xl-10">
-                <div className="banner-overlay-inner">
-                  <div className="carosel-root">
-                    <div className="carosel product">
-                      {/* item 1 */}
-                      <div className="carosel-item">
-                        <div className="carosel-item-inner-wrapper">
-                          <div className="cii-left">
-                            <div className="cii-left-info">
-                              <h3>Сграда "Витоша", София</h3>
-                              <p>Сграда с 12 апартамента, София</p>
-                            </div>
-                            <div className="cii-right-info">
-                              <div className="cii-right-info-inner">
-                                <p>
-                                  <span className="material-icons">
-                                    square_foot
-                                  </span>{" "}
-                                  12 апартамента
-                                </p>
-                                <p>
-                                  <span className="material-icons">bed</span>2
-                                  Етажи
-                                </p>
-                              </div>
-                              <div className="cii-right-info-inner">
-                                <p>
-                                  <span className="material-icons">bathtub</span>2
-                                  Входове
-                                </p>
-                                <p>
-                                  <span className="material-icons">apartment</span>
-                                  4 етажа
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="cii-right">
-                            <a className="more-detail-btn" href="#">
-                              Повече детайли
-                            </a>
-                          </div>
-                          <div className="cii-overlay-info">
-                            <p>Етажна собственост</p>
-                          </div>
-                        </div>
-                      </div>
-                      {/* item 2 */}
-                      <div className="carosel-item">
-                        <div className="carosel-item-inner-wrapper">
-                          <div className="cii-left">
-                            <div className="cii-left-info">
-                              <h3>Сграда "Родопи", Пловдив</h3>
-                              <p>Сграда с 8 апартамента, Пловдив</p>
-                            </div>
-                            <div className="cii-right-info">
-                              <div className="cii-right-info-inner">
-                                <p>
-                                  <span className="material-icons">
-                                    square_foot
-                                  </span>{" "}
-                                  8 апартамента
-                                </p>
-                                <p>
-                                  <span className="material-icons">bed</span>2
-                                  Етажи
-                                </p>
-                              </div>
-                              <div className="cii-right-info-inner">
-                                <p>
-                                  <span className="material-icons">bathtub</span>2
-                                  Входове
-                                </p>
-                                <p>
-                                  <span className="material-icons">apartment</span>
-                                  4 етажа
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="cii-right">
-                            <a className="more-detail-btn" href="#">
-                              Повече детайли
-                            </a>
-                          </div>
-                          <div className="cii-overlay-info">
-                            <p>Етажна собственост</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/*<div className="banner-overlay">*/}
+        {/*  <div className="container">*/}
+        {/*    <div className="row align-items-center justify-content-center">*/}
+        {/*      <div className="col-12 col-md-10 col-lg-10 col-xl-10">*/}
+        {/*        <div className="banner-overlay-inner">*/}
+        {/*          <div className="carosel-root">*/}
+        {/*            <div className="carosel product">*/}
+        {/*              /!* item 1 *!/*/}
+        {/*              <div className="carosel-item">*/}
+        {/*                <div className="carosel-item-inner-wrapper">*/}
+        {/*                  <div className="cii-left">*/}
+        {/*                    <div className="cii-left-info">*/}
+        {/*                      <h3>Сграда "Витоша", София</h3>*/}
+        {/*                      <p>Сграда с 12 апартамента, София</p>*/}
+        {/*                    </div>*/}
+        {/*                    <div className="cii-right-info">*/}
+        {/*                      <div className="cii-right-info-inner">*/}
+        {/*                        <p>*/}
+        {/*                          <span className="material-icons">*/}
+        {/*                            square_foot*/}
+        {/*                          </span>{" "}*/}
+        {/*                          12 апартамента*/}
+        {/*                        </p>*/}
+        {/*                        <p>*/}
+        {/*                          <span className="material-icons">bed</span>2*/}
+        {/*                          Етажи*/}
+        {/*                        </p>*/}
+        {/*                      </div>*/}
+        {/*                      <div className="cii-right-info-inner">*/}
+        {/*                        <p>*/}
+        {/*                          <span className="material-icons">bathtub</span>2*/}
+        {/*                          Входове*/}
+        {/*                        </p>*/}
+        {/*                        <p>*/}
+        {/*                          <span className="material-icons">apartment</span>*/}
+        {/*                          4 етажа*/}
+        {/*                        </p>*/}
+        {/*                      </div>*/}
+        {/*                    </div>*/}
+        {/*                  </div>*/}
+        {/*                  <div className="cii-right">*/}
+        {/*                    <a className="more-detail-btn" href="#">*/}
+        {/*                      Повече детайли*/}
+        {/*                    </a>*/}
+        {/*                  </div>*/}
+        {/*                  <div className="cii-overlay-info">*/}
+        {/*                    <p>Етажна собственост</p>*/}
+        {/*                  </div>*/}
+        {/*                </div>*/}
+        {/*              </div>*/}
+        {/*              /!* item 2 *!/*/}
+        {/*              <div className="carosel-item">*/}
+        {/*                <div className="carosel-item-inner-wrapper">*/}
+        {/*                  <div className="cii-left">*/}
+        {/*                    <div className="cii-left-info">*/}
+        {/*                      <h3>Сграда "Родопи", Пловдив</h3>*/}
+        {/*                      <p>Сграда с 8 апартамента, Пловдив</p>*/}
+        {/*                    </div>*/}
+        {/*                    <div className="cii-right-info">*/}
+        {/*                      <div className="cii-right-info-inner">*/}
+        {/*                        <p>*/}
+        {/*                          <span className="material-icons">*/}
+        {/*                            square_foot*/}
+        {/*                          </span>{" "}*/}
+        {/*                          8 апартамента*/}
+        {/*                        </p>*/}
+        {/*                        <p>*/}
+        {/*                          <span className="material-icons">bed</span>2*/}
+        {/*                          Етажи*/}
+        {/*                        </p>*/}
+        {/*                      </div>*/}
+        {/*                      <div className="cii-right-info-inner">*/}
+        {/*                        <p>*/}
+        {/*                          <span className="material-icons">bathtub</span>2*/}
+        {/*                          Входове*/}
+        {/*                        </p>*/}
+        {/*                        <p>*/}
+        {/*                          <span className="material-icons">apartment</span>*/}
+        {/*                          4 етажа*/}
+        {/*                        </p>*/}
+        {/*                      </div>*/}
+        {/*                    </div>*/}
+        {/*                  </div>*/}
+        {/*                  <div className="cii-right">*/}
+        {/*                    <a className="more-detail-btn" href="#">*/}
+        {/*                      Повече детайли*/}
+        {/*                    </a>*/}
+        {/*                  </div>*/}
+        {/*                  <div className="cii-overlay-info">*/}
+        {/*                    <p>Етажна собственост</p>*/}
+        {/*                  </div>*/}
+        {/*                </div>*/}
+        {/*              </div>*/}
+        {/*            </div>*/}
+        {/*          </div>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
         {/* services */}
         <div className="section servicesSlide pb-0">
           <div className="container">
@@ -1183,265 +1183,265 @@ export default function Home() {
           </div>
         </div>
         {/* testimonial */}
-        <div className="section testimonial">
-          <div className="container">
-            <div className="row">
-              <div className="col-12 col-md-12 col-lg-12">
-                <div className="testimonial-wrapper">
-                  <div className="row">
-                    <div className="col-12 col-md-12 col-lg-6">
-                      <div className="section-main-heading text-left">
-                        <h4 className="text-left">Отзиви</h4>
-                        <h2 className="text-left">
-                          Какво казват нашите клиенти за ДомоМениджър
-                        </h2>
-                        <p className="mt-3">
-                          Реални впечатления от собственици и живеещи в сградите
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-12 col-md-12 col-lg-12">
-                      <div className="carosel-root">
-                        <div className="carosel testimonial">
-                          {/* item 1 */}
-                          <div className="carosel-item">
-                            <div className="testimonial-card">
-                              <div className="testimonial-card-top">
-                                <img
-                                  loading="lazy"
-                                  className="img-fluid"
-                                  src="/images/our-team-1.jpg"
-                                  alt="img"
-                                />
-                                <div className="testimonial-author-info">
-                                  <h3>John Doe</h3>
-                                  <h4>Owner, New York</h4>
-                                </div>
-                              </div>
-                              <div className="testimonial-card-body">
-                                <p>
-                                  Входът ни най-накрая е подреден, а комуникацията е
-                                  ясна и навременна.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          {/* item 1 */}
-                          <div className="carosel-item">
-                            <div className="testimonial-card">
-                              <div className="testimonial-card-top">
-                                <img
-                                  loading="lazy"
-                                  className="img-fluid"
-                                  src="/images/our-team-2.jpg"
-                                  alt="img"
-                                />
-                                <div className="testimonial-author-info">
-                                  <h3>Srikanth Malleboina</h3>
-                                  <h4>Owner, America</h4>
-                                </div>
-                              </div>
-                              <div className="testimonial-card-body">
-                                <p>
-                                  Реагират бързо при нужда и ни държат информирани за
-                                  всяка стъпка.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          {/* item 1 */}
-                          <div className="carosel-item">
-                            <div className="testimonial-card">
-                              <div className="testimonial-card-top">
-                                <img
-                                  loading="lazy"
-                                  className="img-fluid"
-                                  src="/images/our-team-3.jpg"
-                                  alt="img"
-                                />
-                                <div className="testimonial-author-info">
-                                  <h3>Mary Cort</h3>
-                                  <h4>Owner, Mexico</h4>
-                                </div>
-                              </div>
-                              <div className="testimonial-card-body">
-                                <p>
-                                  Разходите са прозрачни, а общите части изглеждат
-                                  отлично през целия месец.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          {/* item 1 */}
-                          <div className="carosel-item">
-                            <div className="testimonial-card">
-                              <div className="testimonial-card-top">
-                                <img
-                                  loading="lazy"
-                                  className="img-fluid"
-                                  src="/images/our-team-4.jpg"
-                                  alt="img"
-                                />
-                                <div className="testimonial-author-info">
-                                  <h3>Max Minth</h3>
-                                  <h4>Owner, New Jersy</h4>
-                                </div>
-                              </div>
-                              <div className="testimonial-card-body">
-                                <p>
-                                  Чувстваме се спокойни, защото поддръжката е в сигурни
-                                  ръце.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/*<div className="section testimonial">*/}
+        {/*  <div className="container">*/}
+        {/*    <div className="row">*/}
+        {/*      <div className="col-12 col-md-12 col-lg-12">*/}
+        {/*        <div className="testimonial-wrapper">*/}
+        {/*          <div className="row">*/}
+        {/*            <div className="col-12 col-md-12 col-lg-6">*/}
+        {/*              <div className="section-main-heading text-left">*/}
+        {/*                <h4 className="text-left">Отзиви</h4>*/}
+        {/*                <h2 className="text-left">*/}
+        {/*                  Какво казват нашите клиенти за ДомоМениджър*/}
+        {/*                </h2>*/}
+        {/*                <p className="mt-3">*/}
+        {/*                  Реални впечатления от собственици и живеещи в сградите*/}
+        {/*                </p>*/}
+        {/*              </div>*/}
+        {/*            </div>*/}
+        {/*          </div>*/}
+        {/*          <div className="row">*/}
+        {/*            <div className="col-12 col-md-12 col-lg-12">*/}
+        {/*              <div className="carosel-root">*/}
+        {/*                <div className="carosel testimonial">*/}
+        {/*                  /!* item 1 *!/*/}
+        {/*                  <div className="carosel-item">*/}
+        {/*                    <div className="testimonial-card">*/}
+        {/*                      <div className="testimonial-card-top">*/}
+        {/*                        <img*/}
+        {/*                          loading="lazy"*/}
+        {/*                          className="img-fluid"*/}
+        {/*                          src="/images/our-team-1.jpg"*/}
+        {/*                          alt="img"*/}
+        {/*                        />*/}
+        {/*                        <div className="testimonial-author-info">*/}
+        {/*                          <h3>John Doe</h3>*/}
+        {/*                          <h4>Owner, New York</h4>*/}
+        {/*                        </div>*/}
+        {/*                      </div>*/}
+        {/*                      <div className="testimonial-card-body">*/}
+        {/*                        <p>*/}
+        {/*                          Входът ни най-накрая е подреден, а комуникацията е*/}
+        {/*                          ясна и навременна.*/}
+        {/*                        </p>*/}
+        {/*                      </div>*/}
+        {/*                    </div>*/}
+        {/*                  </div>*/}
+        {/*                  /!* item 1 *!/*/}
+        {/*                  <div className="carosel-item">*/}
+        {/*                    <div className="testimonial-card">*/}
+        {/*                      <div className="testimonial-card-top">*/}
+        {/*                        <img*/}
+        {/*                          loading="lazy"*/}
+        {/*                          className="img-fluid"*/}
+        {/*                          src="/images/our-team-2.jpg"*/}
+        {/*                          alt="img"*/}
+        {/*                        />*/}
+        {/*                        <div className="testimonial-author-info">*/}
+        {/*                          <h3>Srikanth Malleboina</h3>*/}
+        {/*                          <h4>Owner, America</h4>*/}
+        {/*                        </div>*/}
+        {/*                      </div>*/}
+        {/*                      <div className="testimonial-card-body">*/}
+        {/*                        <p>*/}
+        {/*                          Реагират бързо при нужда и ни държат информирани за*/}
+        {/*                          всяка стъпка.*/}
+        {/*                        </p>*/}
+        {/*                      </div>*/}
+        {/*                    </div>*/}
+        {/*                  </div>*/}
+        {/*                  /!* item 1 *!/*/}
+        {/*                  <div className="carosel-item">*/}
+        {/*                    <div className="testimonial-card">*/}
+        {/*                      <div className="testimonial-card-top">*/}
+        {/*                        <img*/}
+        {/*                          loading="lazy"*/}
+        {/*                          className="img-fluid"*/}
+        {/*                          src="/images/our-team-3.jpg"*/}
+        {/*                          alt="img"*/}
+        {/*                        />*/}
+        {/*                        <div className="testimonial-author-info">*/}
+        {/*                          <h3>Mary Cort</h3>*/}
+        {/*                          <h4>Owner, Mexico</h4>*/}
+        {/*                        </div>*/}
+        {/*                      </div>*/}
+        {/*                      <div className="testimonial-card-body">*/}
+        {/*                        <p>*/}
+        {/*                          Разходите са прозрачни, а общите части изглеждат*/}
+        {/*                          отлично през целия месец.*/}
+        {/*                        </p>*/}
+        {/*                      </div>*/}
+        {/*                    </div>*/}
+        {/*                  </div>*/}
+        {/*                  /!* item 1 *!/*/}
+        {/*                  <div className="carosel-item">*/}
+        {/*                    <div className="testimonial-card">*/}
+        {/*                      <div className="testimonial-card-top">*/}
+        {/*                        <img*/}
+        {/*                          loading="lazy"*/}
+        {/*                          className="img-fluid"*/}
+        {/*                          src="/images/our-team-4.jpg"*/}
+        {/*                          alt="img"*/}
+        {/*                        />*/}
+        {/*                        <div className="testimonial-author-info">*/}
+        {/*                          <h3>Max Minth</h3>*/}
+        {/*                          <h4>Owner, New Jersy</h4>*/}
+        {/*                        </div>*/}
+        {/*                      </div>*/}
+        {/*                      <div className="testimonial-card-body">*/}
+        {/*                        <p>*/}
+        {/*                          Чувстваме се спокойни, защото поддръжката е в сигурни*/}
+        {/*                          ръце.*/}
+        {/*                        </p>*/}
+        {/*                      </div>*/}
+        {/*                    </div>*/}
+        {/*                  </div>*/}
+        {/*                </div>*/}
+        {/*              </div>*/}
+        {/*            </div>*/}
+        {/*          </div>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
         {/* property news */}
-        <div className="section propertyNews">
-          <div className="container">
-            <div className="row align-items-center justify-content-center">
-              <div className="col-12 col-md-8 col-lg-6">
-                <div className="section-main-heading">
-                  <h4>Всички нужди за вашия вход – на едно място</h4>
-                  <h2>Грижа за общите части, спокойствие за хората вътре.</h2>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-12 col-md-6 col-lg-6 mb-4">
-                <div className="propertynews-image">
-                  <img
-                    loading="lazy"
-                    className="img-fluid"
-                    src="/images/modern-apartment-architecture.jpg"
-                    alt="img"
-                  />
-                </div>
-              </div>
-              <div className="col-12 col-md-6 offset-lg-1 col-lg-5 mb-4">
-                <div className="propertynews-main-content">
-                  <h4>ГРИЖА ЗА ВХОДА</h4>
-                  <h3>
-                    Подреден вход и
-                    <br /> доволни съседи
-                  </h3>
-                  <p>
-                    От почистване и поддръжка до комуникация
-                    <br />
-                    и организация на общите дейности
-                  </p>
-                  <a className="theme-btn btn-secondary" href="rental-property">
-                    Виж услугите
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="row align-items-center justify-content-center">
-              <div className="col-12 col-md-11 col-lg-11 col-xl-11">
-                <div className="propertynews-overlay">
-                  <div className="row">
-                    <div className="col-12 col-md-4 col-lg-4 col-xl-4">
-                      <div className="propertynews-overlay-left">
-                        <h3>Статии и съвети за собственици</h3>
-                        <p>Практични насоки за поддръжка, бюджет и добър ред</p>
-                      </div>
-                    </div>
-                    <div className="col-12 col-md-8 col-lg-8 col-xl-8">
-                      <div className="propertynews-overlay-right">
-                        <div className="row">
-                          <div className="col-12 col-md-12 col-lg-6 mb-4">
-                            <a href="#" className="propertynews-overlay-right-card">
-                              <div className="propertynews-orc-image">
-                                <img
-                                  loading="lazy"
-                                  className="img-fluid"
-                                  src="/images/blog-1.jpg"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="propertynews-orc-info">
-                                <h3>Годишен бюджет на входа без изненади</h3>
-                                <p>20 януари 2026</p>
-                              </div>
-                            </a>
-                          </div>
-                          <div className="col-12 col-md-12 col-lg-6 mb-4">
-                            <a href="#" className="propertynews-overlay-right-card">
-                              <div className="propertynews-orc-image">
-                                <img
-                                  loading="lazy"
-                                  className="img-fluid"
-                                  src="/images/blog-2.jpg"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="propertynews-orc-info">
-                                <h3>Сезонна поддръжка: какво да не пропускате</h3>
-                                <p>20 януари 2026</p>
-                              </div>
-                            </a>
-                          </div>
-                          <div className="col-12 col-md-12 col-lg-6 mb-4">
-                            <a href="#" className="propertynews-overlay-right-card">
-                              <div className="propertynews-orc-image">
-                                <img
-                                  loading="lazy"
-                                  className="img-fluid"
-                                  src="/images/blog-3.webp"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="propertynews-orc-info">
-                                <h3>Общи части, които правят добро впечатление</h3>
-                                <p>20 януари 2026</p>
-                              </div>
-                            </a>
-                          </div>
-                          <div className="col-12 col-md-12 col-lg-6 mb-4">
-                            <a href="#" className="propertynews-overlay-right-card">
-                              <div className="propertynews-orc-image">
-                                <img
-                                  loading="lazy"
-                                  className="img-fluid"
-                                  src="/images/blog-4.webp"
-                                  alt="img"
-                                />
-                              </div>
-                              <div className="propertynews-orc-info">
-                                <h3>Фонд „Ремонт“ в действие: как работи</h3>
-                                <p>20 януари 2026</p>
-                              </div>
-                            </a>
-                          </div>
-                          <div className="col-12 col-md-12 col-lg-12">
-                            <div className="propertynews-all-link">
-                              <a href="#">
-                                Виж всички статии и ръководства{" "}
-                                <span className="material-icons">
-                                  arrow_right_alt
-                                </span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/*<div className="section propertyNews">*/}
+        {/*  <div className="container">*/}
+        {/*    <div className="row align-items-center justify-content-center">*/}
+        {/*      <div className="col-12 col-md-8 col-lg-6">*/}
+        {/*        <div className="section-main-heading">*/}
+        {/*          <h4>Всички нужди за вашия вход – на едно място</h4>*/}
+        {/*          <h2>Грижа за общите части, спокойствие за хората вътре.</h2>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*    <div className="row">*/}
+        {/*      <div className="col-12 col-md-6 col-lg-6 mb-4">*/}
+        {/*        <div className="propertynews-image">*/}
+        {/*          <img*/}
+        {/*            loading="lazy"*/}
+        {/*            className="img-fluid"*/}
+        {/*            src="/images/modern-apartment-architecture.jpg"*/}
+        {/*            alt="img"*/}
+        {/*          />*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*      <div className="col-12 col-md-6 offset-lg-1 col-lg-5 mb-4">*/}
+        {/*        <div className="propertynews-main-content">*/}
+        {/*          <h4>ГРИЖА ЗА ВХОДА</h4>*/}
+        {/*          <h3>*/}
+        {/*            Подреден вход и*/}
+        {/*            <br /> доволни съседи*/}
+        {/*          </h3>*/}
+        {/*          <p>*/}
+        {/*            От почистване и поддръжка до комуникация*/}
+        {/*            <br />*/}
+        {/*            и организация на общите дейности*/}
+        {/*          </p>*/}
+        {/*          <a className="theme-btn btn-secondary" href="rental-property">*/}
+        {/*            Виж услугите*/}
+        {/*          </a>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*    <div className="row align-items-center justify-content-center">*/}
+        {/*      <div className="col-12 col-md-11 col-lg-11 col-xl-11">*/}
+        {/*        <div className="propertynews-overlay">*/}
+        {/*          <div className="row">*/}
+        {/*            <div className="col-12 col-md-4 col-lg-4 col-xl-4">*/}
+        {/*              <div className="propertynews-overlay-left">*/}
+        {/*                <h3>Статии и съвети за собственици</h3>*/}
+        {/*                <p>Практични насоки за поддръжка, бюджет и добър ред</p>*/}
+        {/*              </div>*/}
+        {/*            </div>*/}
+        {/*            <div className="col-12 col-md-8 col-lg-8 col-xl-8">*/}
+        {/*              <div className="propertynews-overlay-right">*/}
+        {/*                <div className="row">*/}
+        {/*                  <div className="col-12 col-md-12 col-lg-6 mb-4">*/}
+        {/*                    <a href="#" className="propertynews-overlay-right-card">*/}
+        {/*                      <div className="propertynews-orc-image">*/}
+        {/*                        <img*/}
+        {/*                          loading="lazy"*/}
+        {/*                          className="img-fluid"*/}
+        {/*                          src="/images/blog-1.jpg"*/}
+        {/*                          alt="img"*/}
+        {/*                        />*/}
+        {/*                      </div>*/}
+        {/*                      <div className="propertynews-orc-info">*/}
+        {/*                        <h3>Годишен бюджет на входа без изненади</h3>*/}
+        {/*                        <p>20 януари 2026</p>*/}
+        {/*                      </div>*/}
+        {/*                    </a>*/}
+        {/*                  </div>*/}
+        {/*                  <div className="col-12 col-md-12 col-lg-6 mb-4">*/}
+        {/*                    <a href="#" className="propertynews-overlay-right-card">*/}
+        {/*                      <div className="propertynews-orc-image">*/}
+        {/*                        <img*/}
+        {/*                          loading="lazy"*/}
+        {/*                          className="img-fluid"*/}
+        {/*                          src="/images/blog-2.jpg"*/}
+        {/*                          alt="img"*/}
+        {/*                        />*/}
+        {/*                      </div>*/}
+        {/*                      <div className="propertynews-orc-info">*/}
+        {/*                        <h3>Сезонна поддръжка: какво да не пропускате</h3>*/}
+        {/*                        <p>20 януари 2026</p>*/}
+        {/*                      </div>*/}
+        {/*                    </a>*/}
+        {/*                  </div>*/}
+        {/*                  <div className="col-12 col-md-12 col-lg-6 mb-4">*/}
+        {/*                    <a href="#" className="propertynews-overlay-right-card">*/}
+        {/*                      <div className="propertynews-orc-image">*/}
+        {/*                        <img*/}
+        {/*                          loading="lazy"*/}
+        {/*                          className="img-fluid"*/}
+        {/*                          src="/images/blog-3.webp"*/}
+        {/*                          alt="img"*/}
+        {/*                        />*/}
+        {/*                      </div>*/}
+        {/*                      <div className="propertynews-orc-info">*/}
+        {/*                        <h3>Общи части, които правят добро впечатление</h3>*/}
+        {/*                        <p>20 януари 2026</p>*/}
+        {/*                      </div>*/}
+        {/*                    </a>*/}
+        {/*                  </div>*/}
+        {/*                  <div className="col-12 col-md-12 col-lg-6 mb-4">*/}
+        {/*                    <a href="#" className="propertynews-overlay-right-card">*/}
+        {/*                      <div className="propertynews-orc-image">*/}
+        {/*                        <img*/}
+        {/*                          loading="lazy"*/}
+        {/*                          className="img-fluid"*/}
+        {/*                          src="/images/blog-4.webp"*/}
+        {/*                          alt="img"*/}
+        {/*                        />*/}
+        {/*                      </div>*/}
+        {/*                      <div className="propertynews-orc-info">*/}
+        {/*                        <h3>Фонд „Ремонт“ в действие: как работи</h3>*/}
+        {/*                        <p>20 януари 2026</p>*/}
+        {/*                      </div>*/}
+        {/*                    </a>*/}
+        {/*                  </div>*/}
+        {/*                  <div className="col-12 col-md-12 col-lg-12">*/}
+        {/*                    <div className="propertynews-all-link">*/}
+        {/*                      <a href="#">*/}
+        {/*                        Виж всички статии и ръководства{" "}*/}
+        {/*                        <span className="material-icons">*/}
+        {/*                          arrow_right_alt*/}
+        {/*                        </span>*/}
+        {/*                      </a>*/}
+        {/*                    </div>*/}
+        {/*                  </div>*/}
+        {/*                </div>*/}
+        {/*              </div>*/}
+        {/*            </div>*/}
+        {/*          </div>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
         {/* exclusive */}
         {/* <div className="section projects">
           <div className="container">
