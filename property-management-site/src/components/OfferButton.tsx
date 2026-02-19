@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function OfferButton() {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,6 +53,16 @@ export default function OfferButton() {
     setIsOpen(false);
     setSubmitStatus("idle");
   };
+
+  useEffect(() => {
+    const openOfferModal = () => {
+      setSubmitStatus("idle");
+      setIsOpen(true);
+    };
+
+    window.addEventListener("open-offer-modal", openOfferModal);
+    return () => window.removeEventListener("open-offer-modal", openOfferModal);
+  }, []);
 
   return (
     <>
