@@ -17,32 +17,33 @@ export default function Footer() {
               <h3 className="footer-heading">Започнете</h3>
               <ul className="foolter-link-list">
                 <li className="foolter-link-item">
-                  <a href="#">Посетете ДомоМениджър</a>
+                  <a href="/">Начало</a>
                 </li>
                 <li className="foolter-link-item">
-                  <a href="#">Кандидатствайте сега</a>
+                  <a href="/#plans">Планове</a>
                 </li>
                 <li className="foolter-link-item">
-                  <a href="#">Вижте такси и помощ</a>
+                  <a href="/#services">Услуги</a>
                 </li>
                 <li className="foolter-link-item">
-                  <a href="#">Работете в ДомоМениджър</a>
+                  <a href="/about-us">За нас</a>
                 </li>
               </ul>
             </div>
           </div>
+
           <div className="col-12 col-md-6 col-lg-2 mb-4">
             <div className="footer-link">
               <h3 className="footer-heading">Открийте</h3>
               <ul className="foolter-link-list">
                 <li className="foolter-link-item">
-                  <a href="#">Посетете ДомоМениджър</a>
+                  <a href="/pay">Плащане</a>
                 </li>
                 <li className="foolter-link-item">
-                  <a href="#">Кандидатствайте сега</a>
+                  <a href="/terms-and-conditions">Общи условия</a>
                 </li>
                 <li className="foolter-link-item">
-                  <a href="#">Вижте такси и помощ</a>
+                  <a href="/privacy-policy">Поверителност</a>
                 </li>
                 <li className="foolter-link-item">
                   <a href="#" onClick={handleOpenOfferModal}>
@@ -52,6 +53,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+
           <div className="col-12 col-md-6 col-lg-3 mb-4">
             <div className="footer-social">
               <h3 className="footer-heading">Социални мрежи</h3>
@@ -79,33 +81,45 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+
           <div className="col-12 col-md-6 col-lg-2 mb-4">
             <div className="footer-link">
               <h3 className="footer-heading">Местоположение</h3>
               <ul className="foolter-link-list">
                 <li className="foolter-link-item">
-                  <a href="#">1234, New Winston Road, New York, NY10021</a>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Plovdiv+Bulgaria"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Plovdiv, Bulgaria
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
+
           <div className="col-12 col-md-6 col-lg-3 mb-4">
             <div className="footer-contact-btns">
               <ul>
                 <li>
-                  <a href="mailto:info@example.com">
+                  <a href="mailto:HAZJAITE@GMAIL.COM">
                     <i className="fa fa-envelope" />
-                    info@example.com
+                    HAZJAITE@GMAIL.COM
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+1234567890">
+                  <a href="tel:+359879447570">
                     <i className="fa fa-phone" />
-                    +1234567890
+                    +359879447570
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Plovdiv+Bulgaria"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fa fa-map-marker" />
                     Карти и посоки
                   </a>
@@ -114,18 +128,19 @@ export default function Footer() {
             </div>
           </div>
         </div>
+
         <div className="row">
           <div className="col-12 col-md-12 col-lg-12">
             <div className="footer-middle-links">
               <ul>
                 <li>
-                  <a href="home">Начало</a>
+                  <a href="/">Начало</a>
                 </li>
                 <li>
-                  <a href="terms-of-use">Общи условия</a>
+                  <a href="/terms-and-conditions">Общи условия</a>
                 </li>
                 <li>
-                  <a href="privacy-policy">Политика за поверителност</a>
+                  <a href="/privacy-policy">Политика за поверителност</a>
                 </li>
                 <li>
                   <a href="#" onClick={handleOpenOfferModal}>
@@ -136,6 +151,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
+
         <div className="row">
           <div className="col-12 col-md-12 col-lg-12">
             <div className="footer-bottom">
