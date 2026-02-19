@@ -45,7 +45,6 @@ export default function Header() {
                 </a>
               </li>
               <li className="nav-item"><a className="nav-link" href="/about-us">За нас</a></li>
-              <li className="nav-item"><a className="nav-link" href="/contact-us">Контакти</a></li>
             </ul>
           </div>{" "}
         </div>{" "}
