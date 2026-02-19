@@ -1,6 +1,13 @@
 "use client";
 
+import type { MouseEvent } from "react";
+
 export default function Footer() {
+  const handleOpenOfferModal = (event: MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    window.dispatchEvent(new Event("open-offer-modal"));
+  };
+
   return (
     <footer>
       <div className="container">
@@ -38,7 +45,9 @@ export default function Footer() {
                   <a href="#">Вижте такси и помощ</a>
                 </li>
                 <li className="foolter-link-item">
-                  <a href="#">Работете в ДомоМениджър</a>
+                  <a href="#" onClick={handleOpenOfferModal}>
+                    Изпратете запитване
+                  </a>
                 </li>
               </ul>
             </div>
@@ -119,7 +128,9 @@ export default function Footer() {
                   <a href="privacy-policy">Политика за поверителност</a>
                 </li>
                 <li>
-                  <a href="#">Обратна връзка за сайта</a>
+                  <a href="#" onClick={handleOpenOfferModal}>
+                    Обратна връзка за сайта
+                  </a>
                 </li>
               </ul>
             </div>
