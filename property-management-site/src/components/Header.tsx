@@ -3,6 +3,13 @@
 import type { MouseEvent } from "react";
 
 export default function Header() {
+  const handleHomeClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    if (typeof window === "undefined") return;
+    if (window.location.pathname !== "/") return;
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.history.replaceState(null, "", "/");
+  };
   const handleAnchorClick = (
     event: MouseEvent<HTMLAnchorElement>,
     targetId: string
@@ -25,7 +32,7 @@ export default function Header() {
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"><span className="navbar-toggler-icon" /></button>
           <div className="collapse navbar-collapse home" id="main_nav">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item"><a className="nav-link" href="/">Начало</a></li>
+              <li className="nav-item"><a className="nav-link" href="/" onClick={handleHomeClick}>Начало</a></li>
               <li className="nav-item">
                 <a
                   className="nav-link"
