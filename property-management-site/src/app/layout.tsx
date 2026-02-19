@@ -12,6 +12,14 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   const pathname = usePathname();
+  const useBlackHeader =
+    pathname === "/about-us" ||
+    pathname === "/contact-us" ||
+    pathname === "/admin" ||
+    pathname === "/admin/login" ||
+    pathname === "/admin/blocks" ||
+    pathname === "/admin/apartments" ||
+    pathname === "/admin/payments";
   
   return (
     <html lang="en">
@@ -32,7 +40,7 @@ export default function RootLayout({
       </head>
 
       <body>
-        {pathname === "/about-us" || pathname === "/contact-us" ? <HeaderBlack /> : <Header />}
+        {useBlackHeader ? <HeaderBlack /> : <Header />}
         {children}
         <Footer />
         <ScrollToTop />
