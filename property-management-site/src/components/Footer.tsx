@@ -109,9 +109,9 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+359879447570">
+                  <a href="tel:+359885668825">
                     <i className="fa fa-phone" />
-                    +359879447570
+                    +359885668825
                   </a>
                 </li>
                 <li>
