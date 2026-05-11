@@ -22,8 +22,70 @@ export default function RootLayout({
     pathname === "/admin/payments";
   
   return (
-    <html lang="en">
+    <html lang="bg">
       <head>
+        <link rel="icon" href="/images/favicon.png" type="image/png" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+          ДомоМениджър - Професионален домоуправител в Пловдив, България
+        </title>
+        <meta
+          name="description"
+          content="ДомоМениджър - професионален домоуправител и услуги за етажна собственост в Пловдив, България. Касиер, поддръжка, юридическа помощ и онлайн плащания."
+        />
+        <meta
+          name="keywords"
+          content="хазяин, хазяни, домоуправител, домоуправители, професионален домоуправител, етажна собственост, управление на вход, вход, поддръжка на вход, касиер, Пловдив, България, DomoManager, property management Plovdiv"
+        />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <meta name="author" content="ДомоМениджър" />
+        <meta name="geo.region" content="BG" />
+        <meta name="geo.placename" content="Plovdiv" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="ДомоМениджър - Професионален домоуправител в Пловдив"
+        />
+        <meta
+          property="og:description"
+          content="Управление на етажна собственост, прозрачни плащания и надеждна поддръжка в Пловдив."
+        />
+        <meta property="og:site_name" content="ДомоМениджър" />
+        <meta property="og:locale" content="bg_BG" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="ДомоМениджър - Професионален домоуправител в Пловдив"
+        />
+        <meta
+          name="twitter:description"
+          content="Услуги за етажна собственост в Пловдив: домоуправител, касиер, поддръжка и онлайн плащания."
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "ДомоМениджър",
+              description:
+                "Професионален домоуправител и услуги за етажна собственост в Пловдив, България.",
+              areaServed: ["Пловдив", "България"],
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Пловдив",
+                addressCountry: "BG",
+              },
+              telephone: "+359885668825",
+              email: "HAZJAITE@GMAIL.COM",
+              url: "https://domomenidzhur.com",
+              keywords:
+                "хазяин, хазяни, домоуправител, домоуправители, етажна собственост, Пловдив, България",
+            }),
+          }}
+        />
+
         {/* Fonts & Icons */}
         <link rel="stylesheet" href="/css/all.min.css" />
         <link rel="stylesheet" href="/css/font-awesome.min.css" />
