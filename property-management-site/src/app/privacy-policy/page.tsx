@@ -8,106 +8,302 @@ export default function PrivacyPolicy() {
                     <div className="row">
                         <div className="col-12 col-md-12 col-lg-12">
                             <div className="pageBanner-inner">
-                                <h2>Privacy Policy</h2>
+                                <h2>Политика за поверителност</h2>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             {/* content */}
             <div className="section terms-policy">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-12 col-lg-12">
                             <div className="privacy-policy-wrapper">
+                                <p className="policy-description">
+                                    Последна актуализация: {new Date().toLocaleDateString('bg-BG')}
+                                </p>
+
                                 <h3 className="policy-main-heading">
-                                    Scope of this Privacy Policy
+                                    1. Въведение
                                 </h3>
+
                                 <p className="policy-description">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                    quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                                    velit, sed quia non numquam eius modi tempora incidunt ut labore
-                                    et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                                    veniam, quis nostrum exercitationem ullam corporis suscipit
-                                    laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-                                    vel eum iure reprehenderit qui in ea voluptate velit esse quam
-                                    nihil molestiae consequatur
+                                    Ние ценим вашето доверие и се ангажираме да
+                                    защитаваме личните ви данни. Тази политика за
+                                    поверителност описва как събираме, използваме,
+                                    разкриваме и защитаваме вашата информация, когато
+                                    посещавате нашия уебсайт за управление на имоти
+                                    или използвате нашите услуги. Ние спазваме
+                                    Общия регламент за защита на данните (ОРЗД)
+                                    на ЕС и приложимото българско законодателство.
                                 </p>
-                                <p className="policy-description">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                    quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                                    velit, sed quia non numquam eius modi tempora incidunt ut labore
-                                    et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                                    veniam, quis nostrum exercitationem ullam corporis suscipit
-                                    laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-                                    vel eum iure reprehenderit qui in ea voluptate velit esse quam
-                                    nihil molestiae consequatur Lorem Ipsum is simply dummy text of
-                                    the printing and typesetting industry.
-                                </p>
+
                                 <h3 className="policy-main-heading">
-                                    What Information do we Collect?
+                                    2. Каква информация събираме?
                                 </h3>
+
                                 <p className="policy-description">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                    quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                                    velit, sed quia non numquam eius modi tempora incidunt ut labore
-                                    et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                                    veniam, quis nostrum exercitationem ullam corporis suscipit
-                                    laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-                                    vel eum iure reprehenderit qui in ea voluptate velit esse quam
-                                    nihil molestiae consequatur
+                                    Събираме следните видове лични данни:
                                 </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>
+                                        <strong>Идентификационни данни:</strong>{" "}
+                                        Име, ЕГН/ЛНЧ, адрес
+                                    </li>
+
+                                    <li>
+                                        <strong>Контактни данни:</strong>{" "}
+                                        Имейл адрес, телефонен номер
+                                    </li>
+
+                                    <li>
+                                        <strong>Финансова информация:</strong>{" "}
+                                        Банкови данни за плащания
+                                    </li>
+
+                                    <li>
+                                        <strong>Данни за имота:</strong>{" "}
+                                        Информация, свързана с управляваните имоти
+                                    </li>
+
+                                    <li>
+                                        <strong>Технически данни:</strong>{" "}
+                                        IP адрес, тип браузър, данни от бисквитки
+                                    </li>
+                                </ul>
+
                                 <h3 className="policy-main-heading">
-                                    Why do we Need your Personal Data?
+                                    3. Защо събираме вашите данни?
                                 </h3>
+
                                 <p className="policy-description">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                    quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                                    velit, sed quia non numquam eius modi tempora incidunt ut labore
-                                    et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                                    veniam, quis nostrum exercitationem ullam corporis suscipit
-                                    laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-                                    vel eum iure reprehenderit qui in ea voluptate velit esse quam
-                                    nihil molestiae consequatur
+                                    Използваме вашите лични данни за следните цели:
                                 </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>Предоставяне на услуги за управление на имоти</li>
+                                    <li>Обработка на плащания и фактуриране</li>
+                                    <li>
+                                        Комуникация относно вашите резервации и запитвания
+                                    </li>
+                                    <li>
+                                        Подобряване на нашите услуги и потребителско изживяване
+                                    </li>
+                                    <li>Спазване на правни задължения</li>
+                                    <li>
+                                        Изпращане на маркетингови съобщения
+                                        (само с ваше съгласие)
+                                    </li>
+                                </ul>
+
+                                <h3 className="policy-main-heading">
+                                    4. Правно основание за обработка
+                                </h3>
+
                                 <p className="policy-description">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                    quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                                    velit, sed quia non numquam eius modi tempora incidunt ut labore
-                                    et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                                    veniam, quis nostrum exercitationem ullam corporis suscipit
-                                    laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-                                    vel eum iure reprehenderit qui in ea voluptate velit esse quam
-                                    nihil molestiae consequatur Lorem Ipsum is simply dummy text of
-                                    the printing and typesetting industry. Lorem Ipsum has been the
-                                    industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a
-                                    type specimen book. It has survived not
+                                    Обработваме вашите лични данни въз основа на:
+                                </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>
+                                        <strong>Изпълнение на договор:</strong>{" "}
+                                        За предоставяне на услугите, които сте поискали
+                                    </li>
+
+                                    <li>
+                                        <strong>Правно задължение:</strong>{" "}
+                                        Когато сме длъжни по закон да обработваме данни
+                                    </li>
+
+                                    <li>
+                                        <strong>Легитимен интерес:</strong>{" "}
+                                        За подобряване на услугите и сигурността
+                                    </li>
+
+                                    <li>
+                                        <strong>Съгласие:</strong>{" "}
+                                        Когато сте дали изрично съгласие за конкретни цели
+                                    </li>
+                                </ul>
+
+                                <h3 className="policy-main-heading">
+                                    5. Споделяне на лични данни
+                                </h3>
+
+                                <p className="policy-description">
+                                    Можем да споделяме вашите лични данни със:
+                                </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>
+                                        <strong>Собственици на имоти:</strong>{" "}
+                                        Когато е необходимо за управление на резервации
+                                    </li>
+
+                                    <li>
+                                        <strong>Доставчици на услуги:</strong>{" "}
+                                        Платежни процесори, хостинг доставчици
+                                    </li>
+
+                                    <li>
+                                        <strong>Държавни органи:</strong>{" "}
+                                        Когато се изисква по закон
+                                    </li>
+
+                                    <li>
+                                        <strong>Професионални съветници:</strong>{" "}
+                                        Юристи и одитори при необходимост
+                                    </li>
+                                </ul>
+
+                                <p className="policy-description">
+                                    Всички трети страни, с които споделяме данни,
+                                    са обвързани с договори за поверителност и са
+                                    задължени да спазват приложимото законодателство
+                                    за защита на данните.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    6. Сигурност на данните
+                                </h3>
+
+                                <p className="policy-description">
+                                    Прилагаме подходящи технически и организационни
+                                    мерки за защита на вашите лични данни, включително:
+                                </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>SSL/TLS криптиране на връзката</li>
+                                    <li>
+                                        Криптиране на чувствителни данни в базите данни
+                                    </li>
+                                    <li>Контрол на достъпа и автентикация</li>
+                                    <li>Редовни проверки за сигурност</li>
+                                    <li>
+                                        Обучение на персонала за защита на данните
+                                    </li>
+                                </ul>
+
+                                <h3 className="policy-main-heading">
+                                    7. Вашите права
+                                </h3>
+
+                                <p className="policy-description">
+                                    Съгласно ОРЗД имате следните права:
+                                </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>
+                                        <strong>Право на достъп:</strong>{" "}
+                                        Да поискате копие от вашите лични данни
+                                    </li>
+
+                                    <li>
+                                        <strong>Право на корекция:</strong>{" "}
+                                        Да коригирате неточни или непълни данни
+                                    </li>
+
+                                    <li>
+                                        <strong>Право на изтриване:</strong>{" "}
+                                        Да поискате изтриване на вашите данни
+                                        при определени условия
+                                    </li>
+
+                                    <li>
+                                        <strong>Право на ограничение:</strong>{" "}
+                                        Да ограничите обработката на вашите данни
+                                    </li>
+
+                                    <li>
+                                        <strong>Право на преносимост:</strong>{" "}
+                                        Да получите вашите данни в структуриран формат
+                                    </li>
+
+                                    <li>
+                                        <strong>Право на възражение:</strong>{" "}
+                                        Да възразите срещу обработката на вашите данни
+                                    </li>
+
+                                    <li>
+                                        <strong>
+                                            Право да оттеглите съгласието си:
+                                        </strong>{" "}
+                                        По всяко време за обработки,
+                                        базирани на съгласие
+                                    </li>
+                                </ul>
+
+                                <p className="policy-description">
+                                    За да упражните някое от тези права,
+                                    моля свържете се с нас на посочения
+                                    по-долу имейл.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    8. Бисквитки
+                                </h3>
+
+                                <p className="policy-description">
+                                    Нашият уебсайт използва бисквитки за
+                                    подобряване на потребителското изживяване.
+                                    Можете да контролирате и изтривате
+                                    бисквитките чрез настройките на вашия браузър.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    9. Съхранение на данните
+                                </h3>
+
+                                <p className="policy-description">
+                                    Съхраняваме вашите лични данни само за
+                                    периода, необходим за целите, за които
+                                    са събрани, или за спазване на правни
+                                    задължения. Обикновено запазваме данните
+                                    за срока на договора плюс законоустановените
+                                    давностни срокове (обикновено 5 години).
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    10. Промени в политиката
+                                </h3>
+
+                                <p className="policy-description">
+                                    Можем да актуализираме тази политика за
+                                    поверителност от време на време. Ще ви
+                                    уведомим за значителни промени чрез имейл
+                                    или чрез публикуване на забележимо известие
+                                    на нашия уебсайт.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    11. Контакти
+                                </h3>
+
+                                <p className="policy-description">
+                                    За въпроси относно тази политика за
+                                    поверителност или обработката на вашите
+                                    лични данни, моля свържете се с нас:
+                                </p>
+
+                                <p className="policy-description">
+                                    <strong>Имейл:</strong> HAZJAITE@GMAIL.COM
+                                    <br />
+
+                                    <strong>Адрес:</strong> България, гр. Пловдив
+                                    <br />
+
+                                    <strong>Телефон:</strong> +359 885 668 825
+                                </p>
+
+                                <p className="policy-description">
+                                    Имате право да подадете жалба до
+                                    Комисията за защита на личните данни (КЗЛД)
+                                    на Република България, ако считате,
+                                    че обработката на вашите лични данни
+                                    нарушава приложимото законодателство.
                                 </p>
                             </div>
                         </div>
