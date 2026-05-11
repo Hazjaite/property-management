@@ -8,116 +8,218 @@ export default function TermsAndConditions() {
                     <div className="row">
                         <div className="col-12 col-md-12 col-lg-12">
                             <div className="pageBanner-inner">
-                                <h2>Terms &amp; Conditions</h2>
+                                <h2>Общи условия</h2>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             {/* content */}
             <div className="section terms-policy">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-12 col-lg-12">
                             <div className="privacy-policy-wrapper">
+                                <p className="policy-description">
+                                    Последна актуализация: {new Date().toLocaleDateString('bg-BG')}
+                                </p>
+
                                 <h3 className="policy-main-heading">
-                                    Your User Account and Content
+                                    1. Въведение
                                 </h3>
                                 <p className="policy-description">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                    quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                                    velit, sed quia non numquam eius modi tempora incidunt ut labore
-                                    et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                                    veniam, quis nostrum exercitationem ullam corporis suscipit
-                                    laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-                                    vel eum iure reprehenderit qui in ea voluptate velit esse quam
-                                    nihil molestiae consequatur
+                                    Добре дошли в нашия уебсайт за управление на имоти.
+                                    Чрез достъпа и използването на този уебсайт, вие се
+                                    съгласявате да бъдете обвързани от следните общи
+                                    условия. Моля, прочетете ги внимателно, преди да
+                                    използвате нашите услуги. Ако не сте съгласни с тези
+                                    условия, моля не използвайте нашия уебсайт.
                                 </p>
-                                <h3 className="policy-main-heading">Your Use of Our Service:</h3>
-                                <p className="policy-description">
-                                    1. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                    quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo.
-                                </p>
-                                <p className="policy-description">
-                                    2. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                    quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                                    eos qui ratione voluptatem sequi nesciunt.
-                                </p>
-                                <p className="policy-description">
-                                    3. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                                    odit aut fugit, sed quia consequuntur magni dolores eos qui
-                                    ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-                                    dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                                    sed quia non numquam eius modi tempora incidunt ut labore et
-                                    dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                                    veniam, quis nostrum exercitationem ullam corporis suscipit
-                                    laboriosam, nisi ut aliquid ex ea commodi consequatur?
-                                </p>
-                                <p className="policy-description">
-                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                                    aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-                                    ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-                                    non numquam eius modi tempora incidunt ut labore et dolore magnam
-                                    aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                                    exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
-                                    ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                                    qui in ea voluptate velit esse quam nihil molestiae consequatur
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry.
-                                </p>
+
                                 <h3 className="policy-main-heading">
-                                    Reporting Copyright and Other IP Violations
+                                    2. Описание на услугите
                                 </h3>
                                 <p className="policy-description">
-                                    <strong>a. Ownership:</strong> Sed ut perspiciatis unde omnis iste
-                                    natus error sit voluptatem accusantium doloremque laudantium,
-                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                                    quasi architecto beatae vitae dicta sunt explicabo.
+                                    Ние предоставяме услуги за управление на имоти, които включват:
                                 </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>Управление на резервации и наематели</li>
+                                    <li>Обработка на плащания и фактуриране</li>
+                                    <li>Поддръжка и ремонт на имоти</li>
+                                    <li>Комуникация между собственици и наематели</li>
+                                    <li>Финансови отчети и документация</li>
+                                </ul>
+
+                                <h3 className="policy-main-heading">
+                                    3. Потребителски акаунт
+                                </h3>
+
                                 <p className="policy-description">
-                                    <strong>b. Content Ownership:</strong> Sed ut perspiciatis unde
-                                    omnis iste natus error sit voluptatem accusantium doloremque
-                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                    veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                                    aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                    voluptatem sequi nesciunt.
+                                    За да използвате пълния функционал на нашия уебсайт,
+                                    трябва да създадете потребителски акаунт. Вие носите
+                                    отговорност за:
                                 </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>Предоставянето на точна и пълна информация при регистрация</li>
+                                    <li>Поддържането на сигурността на вашите данни за вход</li>
+                                    <li>Всички дейности, извършени под вашия акаунт</li>
+                                    <li>Незабавно уведомяване при неразрешен достъп</li>
+                                </ul>
+
                                 <p className="policy-description">
-                                    <strong>c. Rights in User Content:</strong> Sed ut perspiciatis
-                                    unde omnis iste natus error sit voluptatem accusantium doloremque
-                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                    veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                                    aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-                                    ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-                                    non numquam eius modi tempora incidunt ut labore et dolore magnam
-                                    aliquam quaerat voluptatem.
+                                    Запазваме си правото да откажем достъп или да
+                                    деактивираме акаунти, които нарушават тези условия.
                                 </p>
+
+                                <h3 className="policy-main-heading">
+                                    4. Задължения на потребителите
+                                </h3>
+
                                 <p className="policy-description">
-                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                                    aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-                                    ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-                                    non numquam eius modi tempora incidunt ut labore et dolore magnam
-                                    aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                                    exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
-                                    ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                                    qui in ea voluptate velit esse quam nihil molestiae consequatur
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry.
+                                    Когато използвате нашия уебсайт, вие се съгласявате да:
+                                </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>Предоставяте само точна и актуална информация</li>
+                                    <li>Използвате услугите само за законни цели</li>
+                                    <li>Не нарушавате правата на други потребители</li>
+                                    <li>Не разпространявате вредоносен софтуер или злонамерен код</li>
+                                    <li>Не се опитвате да получите неоторизиран достъп до системата</li>
+                                    <li>Спазвате приложимото българско и европейско законодателство</li>
+                                </ul>
+
+                                <h3 className="policy-main-heading">
+                                    5. Интелектуална собственост
+                                </h3>
+
+                                <p className="policy-description">
+                                    Цялото съдържание на този уебсайт, включително текст,
+                                    графики, лога, софтуер и дизайн, е собственост на
+                                    нашата компания или нейните лицензодатели и е защитено
+                                    от законите за авторското право. Вие нямате право да
+                                    копирате, възпроизвеждате или разпространявате
+                                    съдържанието без наше изрично писмено съгласие.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    6. Плащания и такси
+                                </h3>
+
+                                <p className="policy-description">
+                                    Нашите услуги са платени. Таксите се определят
+                                    индивидуално за всеки имот и услуга. Вие се
+                                    съгласявате да:
+                                </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>Плащате дължимите такси в определения срок</li>
+                                    <li>Предоставите валиден начин за плащане</li>
+                                    <li>Носите отговорност за всички такси, свързани с вашето използване</li>
+                                </ul>
+
+                                <p className="policy-description">
+                                    Запазваме си правото да променяме таксите с
+                                    предварително уведомление.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    7. Отказ от отговорност
+                                </h3>
+
+                                <p className="policy-description">
+                                    Ние полагаме усилия да осигурим точността и
+                                    надеждността на нашия уебсайт, но не даваме никакви
+                                    гаранции, че:
+                                </p>
+
+                                <ul style={{ marginLeft: '20px', marginBottom: '15px' }}>
+                                    <li>Услугите ще бъдат непрекъснати или без грешки</li>
+                                    <li>Дефектите ще бъдат отстранени</li>
+                                    <li>Уебсайтът е свободен от вируси или други вредоносни елементи</li>
+                                </ul>
+
+                                <p className="policy-description">
+                                    Ние не носим отговорност за пряка, косвена или
+                                    последваща вреда, произтичаща от използването на
+                                    нашия уебсайт или услуги.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    8. Поверителност
+                                </h3>
+
+                                <p className="policy-description">
+                                    Вашата поверителност е важна за нас. Ние събираме и
+                                    обработваме лични данни в съответствие с нашата{" "}
+                                    <a
+                                        href="/privacy-policy"
+                                        style={{
+                                            color: '#007bff',
+                                            textDecoration: 'underline'
+                                        }}
+                                    >
+                                        Политика за поверителност
+                                    </a>.
+                                    Чрез използването на нашия уебсайт, вие се
+                                    съгласявате с обработката на вашите данни, както е
+                                    описано в тази политика.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    9. Промени в условията
+                                </h3>
+
+                                <p className="policy-description">
+                                    Запазваме си правото да променяме тези общи условия
+                                    по всяко време. Промените влизат в сила след
+                                    публикуването им на уебсайта. Препоръчваме ви
+                                    редовно да преглеждате тази страница, за да сте
+                                    информирани за всякакви промени. Продължаването на
+                                    използването на уебсайта след публикуването на
+                                    промените означава, че приемате новите условия.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    10. Прекратяване
+                                </h3>
+
+                                <p className="policy-description">
+                                    Можем да прекратим или временно да ограничим вашия
+                                    достъп до нашия уебсайт и услуги незабавно и без
+                                    предварително уведомление, ако сметнем, че
+                                    нарушавате тези условия или действията ви са вредни
+                                    за други потребители, за нас или за трети страни.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    11. Приложимо право
+                                </h3>
+
+                                <p className="policy-description">
+                                    Тези общи условия се регулират от законите на
+                                    Република България. Всички спорове, произтичащи от
+                                    или свързани с тези условия, са от изключителната
+                                    компетентност на българските съдилища.
+                                </p>
+
+                                <h3 className="policy-main-heading">
+                                    12. Контакти
+                                </h3>
+
+                                <p className="policy-description">
+                                    Ако имате въпроси относно тези общи условия,
+                                    можете да се свържете с нас:
+                                </p>
+
+                                <p className="policy-description">
+                                    <strong>Имейл:</strong> HAZJAITE@GMAIL.COM
+                                    <br />
+                                    <strong>Адрес:</strong> България, гр. Пловдив
+                                    <br />
+                                    <strong>Телефон:</strong> +359 885 668 825
                                 </p>
                             </div>
                         </div>
