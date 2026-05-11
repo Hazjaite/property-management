@@ -134,9 +134,6 @@ export default function Footer() {
             <div className="footer-middle-links">
               <ul>
                 <li>
-                  <a href="/">Начало</a>
-                </li>
-                <li>
                   <a href="/terms-and-conditions">Общи условия</a>
                 </li>
                 <li>
