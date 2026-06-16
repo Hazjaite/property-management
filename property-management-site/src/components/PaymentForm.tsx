@@ -92,7 +92,7 @@ export default function PaymentForm({ onSubmit, onCancel }: PaymentFormProps) {
     return (
         <form onSubmit={handleSubmit} style={{ maxWidth: 600 }}>
             <div style={{ marginBottom: 16, position: "relative" }}>
-                <label style={{ display: "block", marginBottom: 4, fontWeight: "bold" }}>Платёжен номер (payNumber) *</label>
+                <label style={{ display: "block", marginBottom: 4, fontWeight: "bold" }}>Платежен номер *</label>
                 <input
                     type="text"
                     value={formData.payNumber}

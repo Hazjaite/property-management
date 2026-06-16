@@ -87,7 +87,7 @@ export default function ApartmentForm({ initialData, onSubmit, onCancel }: Apart
 
             <div style={{ marginBottom: 16 }}>
                 <label style={{ display: "block", marginBottom: 4, fontWeight: "bold" }}>
-                    Платёжен номер (payNumber) *
+                    Платежен номер *
                 </label>
                 <input
                     type="text"
