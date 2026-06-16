@@ -17,6 +17,16 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="section home-promo-section">
+          <div className="container">
+            <img
+              loading="lazy"
+              className="img-fluid home-promo-image"
+              src="/images/hazyaite-home-promo.jpg"
+              alt="Професионален домоуправител Хазяите в Пловдив"
+            />
+          </div>
+        </div>
         {/* banner overlay */}
         {/*<div className="banner-overlay">*/}
         {/*  <div className="container">*/}

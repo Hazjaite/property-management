@@ -52,6 +52,12 @@ export default function Header() {
                 </a>
               </li>
               <li className="nav-item"><a className="nav-link" href="/about-us">За нас</a></li>
+              <li className="nav-item">
+                <a className="nav-link header-phone-link" href="tel:+359885668825">
+                  <i className="fa fa-phone" />
+                  +359885668825
+                </a>
+              </li>
             </ul>
           </div>{" "}
         </div>{" "}
